@@ -21,7 +21,7 @@ const Home = () => {
       <Retangulo tipo="3">
         <a href="https://www.unisinos.br/" className={styles.link}>
           <p>
-            Entre no universo da Unisinos! <br />
+            Entre no universo da Unisinos! <br/>
             Explore o mundo!
           </p>
         </a>

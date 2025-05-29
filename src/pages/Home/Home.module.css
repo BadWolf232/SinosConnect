@@ -1,4 +1,5 @@
 /* Resetando margens e paddings globais */
+
 *,
 *::before,
 *::after {
@@ -74,27 +75,40 @@ img {
   background-repeat: no-repeat;
 }
 
-/*.texto{
-  font-family: 'Ancizar Sans', sans-serif;
-  font-size: 27px;
-  font-weight: 400;
-  color: #000;
-}*/
 
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .homeContainer {
     height: auto; /* Ajusta a altura para telas menores */
+    width: 100%; /* Ocupa toda a largura da tela */
   }
 
   .photocontainer {
-    width: 100%; /* Ocupa 100% da largura da tela em dispositivos móveis */
+    width: 90%; /* Ocupa 100% da largura da tela em dispositivos móveis */
     height: 250px; /* Ajusta a altura para uma visualização melhor em telas menores */
   }
 
   .link {
-    font-size: 24px; /* Ajusta o tamanho da fonte para telas menores */
+    font-size: 34px; /* Ajusta o tamanho da fonte para telas menores */
   }
+
+}
+
+@media (max-width: 768px) {
+  .homeContainer {
+    height: auto; /* Ajusta a altura para telas menores */
+    width: 970px; /* Ocupa toda a largura da tela */
+  }
+
+  .photocontainer {
+    width: 90%; /* Ocupa 100% da largura da tela em dispositivos móveis */
+    height: 250px; /* Ajusta a altura para uma visualização melhor em telas menores */
+  }
+
+  .link {
+    font-size: 34px; /* Ajusta o tamanho da fonte para telas menores */
+  }
+
 }
 
 .linkBlack {
